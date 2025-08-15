@@ -232,7 +232,7 @@ label {
   }
 
   .fila-enlace:hover .icono-flecha {
-    content: url('images/rehacer.svg'); /* Imagen rellena al hacer hover */
+    content: url('rehacer.svg'); /* Imagen rellena al hacer hover */
   }
 
   .boton-regresar {
@@ -633,7 +633,7 @@ label {
 .hero {
     background: linear-gradient(rgba(109, 26, 54, 0.8), 
                 rgba(109, 26, 54, 0.8)), 
-                url('images/programas.jpg');
+                url('programas.jpg');
     background-size: cover;
     background-position: center;
     color: var(--blanco);
@@ -685,7 +685,7 @@ label {
     width: 100%;
     object-fit: cover;
     scroll-snap-align: center;
-     background-color: var(--arena);
+    background-color: var(--arena);
 }
 
 
@@ -781,7 +781,7 @@ label {
 
 .page-header {
     background: linear-gradient(rgba(109, 26, 54, 0.8), rgba(109, 26, 54, 0.8)), 
-                url('images/programas_2.jpg');
+                url('programas_2.jpg');
     background-size: cover;
     background-position: center;
     color: var(--blanco);
@@ -1360,6 +1360,7 @@ a {
   color: var(--blanco);
   transform: scale(1.2) translateY(-3px);
 }
+
 
 
 
