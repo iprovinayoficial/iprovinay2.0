@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Página oficial del Instituto Promotor de la Vivienda en Nayarit">
+    <meta name="keywords" content="Iprovinay, Iprovi, IPROVINAY, vivienda, terrenos, nayarit">
+    <title>Instituto Promotor de la Vivienda en Nayarit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="images/images.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="logo-container">
+                <img src="images/logo_nay.png" alt="Logo Gobierno de Nayarit" width="auto" height="100px">
+                <img src="images/logo_2.png" alt="Logo IPROVINAY" width="auto" height="100px">
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="Nosotros.html" class="nav-link">Nosotros</a></li>
+                <li class="nav-item"><a href="Programas.html" class="nav-link">Programas</a></li>
+                <li class="nav-item"><a href="Transparencia.html" class="nav-link">Transparencia</a></li>
+                <li class="nav-item"><a href="MarcoJuridico.html" class="nav-link">Marco Jurídico</a></li>
+                <li class="nav-item"><a href="https://tramites.nayarit.gob.mx/ciudadano/buscador?categoria=8" class="nav-link">Trámites</a></li>
+                <li class="nav-item"><a href="Quehacemos.html" class="nav-link">Qué hacemos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="menu-historia">
+        <a href="Nosotros.html">Nosotros</a> > <span>Ubicación</span>
+    </div>
+    <!-- MAPA DE UBICACION -->
+    <div class="map_container">
+    <div class="location-card">
+      <h1>📍 Puedes encontrarnos en:</h1>
+      <p>Visítanos en nuestras oficinas ubicadas en Emiliano Zapata Ote. 146, Col. Centro, 63000 Tepic, Nayarit. Consulta el mapa para una referencia visual.</p>
+      <iframe class="map-embed"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3711.9710314446343!2d-104.8922134!3d21.5088546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84273701889c74c3%3A0xdd9dbc943a9fd804!2sInstituto%20promotor%20de%20la%20vivienda%20de%20Nayarit!5e0!3m2!1ses!2smx!4v1753307737271!5m2!1ses!2smx"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+
+	<!--SECCIÓN FOOTER-->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Instituto Promotor de la Vivienda en Nayarit</h3>
+          <hr>
+          <p>
+            Es el organismo gubernamental, a través del cual el Estado y los Municipios,
+            ejercerán la competencia en materia de promoción y fomento a la vivienda para la población.
+          </p>
+          <a class="contact-link" target="_blank" href="https://maps.app.goo.gl/rjCen2k7LExDc8mx8">
+            <i class="fas fa-map-marker-alt"></i> Emiliano Zapata Ote. 146, Centro, 63000 Tepic, Nay.
+          </a>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contacto</h3>
+          <hr>
+          <div class="social-media">
+           <a href="https://www.facebook.com/IPROVINAY" target="_blank"><i class="fab fa-facebook-f"></i>IPROVINAY</a>
+           <br>        
+           <a href="https://www.instagram.com/iprovinay" target="_blank"><i class="fab fa-instagram"></i>iprovinay</a>
+           <br>
+           <a href="https://x.com/IPROVINAY1" target="_blank"><i class="fab fa-twitter"></i>@IPROVINAY_1</a><br>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Promoción visual</h3>
+          <hr>
+          <div class="video-container">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FIPROVINAY%2Fvideos%2F612877014321896%2F&show_text=false&width=560&t=0" width="560" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <a href="index.html">
+        <img src="images/logo.png" width="200px" height="50px">
+        </a>
+        <p>&copy; 2025 IPROVINAY - Todos los derechos reservados</p>
+        <a href="#top" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+      </div>
+    </footer>
+
+    <script>
+        document.querySelector('.back-to-top').addEventListener('click', function (e) {
+        e.preventDefault(); // evita salto instantáneo
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth' // deslizamiento suave
+          });
+       });
+      const images = document.querySelectorAll('.imagenes-convocatoria img');
+   </script>
+  </body>
+</html>
